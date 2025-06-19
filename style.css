@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: salmon;
+  font-family: cursive;
+}
+a,
+button,
+input[type="submit"] {
+  cursor: pointer;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* border: none; */
+  outline: none;
+  background: none;
+}
+fieldset {
+  border: none;
+}
+/* --------------------------------- */
+
+.container {
+  width: 90vw;
+  max-width: 40rem;
+  background-color: lightpink;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.textarea {
+  resize: none;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 10rem;
+  min-height: 10rem;
+  padding: 1rem;
+}
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+}
+.counter-container p {
+  font-size: 1.3rem;
+  padding: 10px 5px 0;
+  color: gray;
+}
+.total-counter {
+  color: slateblue;
+}
+.remaining-counter {
+  color: orangered;
+}
